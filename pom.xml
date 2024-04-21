@@ -25,24 +25,28 @@
 
     <dependencies>
 
+        <!-- Cucumber Core-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
 
+        <!-- Cucumber Picocontainer-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
 
+        <!-- Cucumber Java-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
 
+        <!-- Cucumber TestNG-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
